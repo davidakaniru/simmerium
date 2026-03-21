@@ -1,4 +1,4 @@
-import React, { lazy } from 'react';
+import React, { lazy } from "react";
 import {
   ShieldIcon,
   DropletIcon,
@@ -6,8 +6,8 @@ import {
   BugIcon,
   WindIcon,
   FlaskConicalIcon,
-  ArrowRightIcon } from
-'lucide-react';
+  ArrowRightIcon,
+} from "lucide-react";
 export function ProductsSection() {
   return (
     <section id="products" className="py-24 lg:py-32 bg-white">
@@ -33,16 +33,17 @@ export function ProductsSection() {
           {/* Corrosion Inhibitors */}
           <a
             href="#product/corrosion-inhibitors"
-            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block">
-            
+            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block"
+          >
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-simmerium-gold transition-colors duration-500"></div>
             <div className="h-48 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=600&h=400&fit=crop"
+                src="https://plus.unsplash.com/premium_photo-1661913813641-e153b32f22ca?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Corrosion Inhibitors"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy" />
-              
+                loading="lazy"
+              />
+
               <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="p-8">
@@ -67,16 +68,17 @@ export function ProductsSection() {
           {/* Scale Inhibitors */}
           <a
             href="#product/scale-inhibitors"
-            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block">
-            
+            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block"
+          >
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-simmerium-gold transition-colors duration-500"></div>
             <div className="h-48 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop"
+                src="https://www.calicometal.net/img/255-pipe.jpg"
                 alt="Scale Inhibitors"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy" />
-              
+                loading="lazy"
+              />
+
               <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="p-8">
@@ -101,16 +103,17 @@ export function ProductsSection() {
           {/* Demulsifiers */}
           <a
             href="#product/demulsifiers"
-            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block">
-            
+            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block"
+          >
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-simmerium-gold transition-colors duration-500"></div>
             <div className="h-48 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=600&h=400&fit=crop"
+                src="/demulsifiers.png"
                 alt="Demulsifiers"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy" />
-              
+                loading="lazy"
+              />
+
               <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="p-8">
@@ -134,16 +137,17 @@ export function ProductsSection() {
           {/* Biocides */}
           <a
             href="#product/biocides"
-            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block">
-            
+            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block"
+          >
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-simmerium-gold transition-colors duration-500"></div>
             <div className="h-48 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&h=400&fit=crop"
                 alt="Biocides"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy" />
-              
+                loading="lazy"
+              />
+
               <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="p-8">
@@ -167,16 +171,17 @@ export function ProductsSection() {
           {/* H2S Scavengers */}
           <a
             href="#product/h2s-scavengers"
-            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block">
-            
+            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block"
+          >
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-simmerium-gold transition-colors duration-500"></div>
             <div className="h-48 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=600&h=400&fit=crop"
                 alt="H2S Scavengers"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy" />
-              
+                loading="lazy"
+              />
+
               <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="p-8">
@@ -201,16 +206,17 @@ export function ProductsSection() {
           {/* Production Chemicals */}
           <a
             href="#product/production-chemicals"
-            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block">
-            
+            className="group bg-white border border-gray-100 rounded-2xl shadow-sm hover:shadow-2xl transition-all duration-700 transform hover:-translate-y-3 relative overflow-hidden block"
+          >
             <div className="absolute top-0 left-0 w-full h-1 bg-gray-100 group-hover:bg-simmerium-gold transition-colors duration-500"></div>
             <div className="h-48 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=600&h=400&fit=crop"
+                src="/chemicals.png"
                 alt="Production Chemicals"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                loading="lazy" />
-              
+                loading="lazy"
+              />
+
               <div className="absolute top-0 left-0 right-0 h-48 bg-gradient-to-t from-black/20 to-transparent"></div>
             </div>
             <div className="p-8">
@@ -232,6 +238,6 @@ export function ProductsSection() {
           </a>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }

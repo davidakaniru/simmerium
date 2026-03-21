@@ -1,4 +1,3 @@
-import React, { lazy } from 'react';
 import { FactoryIcon, FuelIcon, ActivityIcon, DropletsIcon } from 'lucide-react';
 export function IndustriesSection() {
   return (

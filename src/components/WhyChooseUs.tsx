@@ -14,7 +14,7 @@ export function WhyChooseUs() {
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?w=800&h=800&fit=crop"
+                src="https://www.sgs.com/-/media/sgscorp/images/temporary/sgs-oil-and-gas-laboratory-saint-petersburg-russia-3.cdn.en-NG.1.jpg"
                 alt="Simmerium laboratory and innovation"
                 className="w-full h-[400px] lg:h-[550px] object-cover"
                 loading="lazy" />

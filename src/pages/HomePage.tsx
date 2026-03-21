@@ -6,7 +6,6 @@ import { ProcessSection } from "../components/ProcessSection";
 import { ImpactBanner } from "../components/ImpactBanner";
 import { IndustriesSection } from "../components/IndustriesSection";
 import { WhyChooseUs } from "../components/WhyChooseUs";
-import { TeamSection } from "../components/TeamSection";
 import { TestimonialsSection } from "../components/TestimonialsSection";
 import { GlobalPresence } from "../components/GlobalPresence";
 import { Sustainability } from "../components/Sustainability";
@@ -38,9 +37,9 @@ export function HomePage() {
       <AnimatedSection>
         <WhyChooseUs />
       </AnimatedSection>
-      <AnimatedSection>
+      {/* <AnimatedSection>
         <TeamSection />
-      </AnimatedSection>
+      </AnimatedSection> */}
       <AnimatedSection>
         <TestimonialsSection />
       </AnimatedSection>

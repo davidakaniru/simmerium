@@ -80,7 +80,7 @@ export function ContactSection() {
                   <h4 className="font-bold text-simmerium-heading mb-1">
                     Phone
                   </h4>
-                  <p className="text-simmerium-body">+1 (800) 555-CHEM</p>
+                  <p className="text-simmerium-body">+1614-805-4911</p>
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ export function ContactSection() {
                   <h4 className="font-bold text-simmerium-heading mb-1">
                     Email
                   </h4>
-                  <p className="text-simmerium-body">info@simmerium.com</p>
+                  <p className="text-simmerium-body">vincent.gomina@simmerium.com</p>
                 </div>
               </div>
 
@@ -105,15 +105,15 @@ export function ContactSection() {
                     Global Headquarters
                   </h4>
                   <p className="text-simmerium-body">
-                    123 Energy Corridor Blvd
+                    8911 Orchid Valley Way,
                     <br />
-                    Houston, TX 77079, USA
+                    Cypress. Texas. TX 77433
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <a
                 href="#linkedin"
                 className="w-11 h-11 bg-simmerium-navy text-white rounded-xl flex items-center justify-center hover:bg-simmerium-gold transition-colors duration-500 shadow-sm">
@@ -126,7 +126,7 @@ export function ContactSection() {
                 
                 <TwitterIcon className="w-5 h-5" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Right Side: Form */}

@@ -68,7 +68,7 @@ export function IndustriesSection() {
             className="group relative h-96 rounded-2xl overflow-hidden cursor-pointer block">
             
             <img
-              src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=800&h=600&fit=crop"
+              src="https://www.prepol.com/wp-content/uploads/2024/08/downstream-1200x800-1.jpg"
               alt="Oil & Gas Downstream"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-[8000ms] ease-out group-hover:scale-110"
               loading="lazy" />
@@ -120,7 +120,7 @@ export function IndustriesSection() {
             className="group relative h-96 rounded-2xl overflow-hidden cursor-pointer block">
             
             <img
-              src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&h=600&fit=crop"
+              src="https://www.hotbot.com/articles/wp-content/uploads/2025/10/what-is-water-treatment-a-beginners-guide-to-clean-and-safe-water-systems-0u-1024x574.jpeg"
               alt="Water Treatment"
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-[8000ms] ease-out group-hover:scale-110"
               loading="lazy" />

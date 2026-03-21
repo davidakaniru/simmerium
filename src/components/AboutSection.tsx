@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef, lazy } from 'react';
+import { useEffect, useState, useRef } from "react";
 function useAnimatedCounter(end: number, duration: number = 2000) {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -12,8 +12,8 @@ function useAnimatedCounter(end: number, duration: number = 2000) {
         }
       },
       {
-        threshold: 0.1
-      }
+        threshold: 0.1,
+      },
     );
     if (ref.current) observer.observe(ref.current);
     return () => observer.disconnect();
@@ -32,18 +32,18 @@ function useAnimatedCounter(end: number, duration: number = 2000) {
   }, [isVisible, end, duration]);
   return {
     count,
-    ref
+    ref,
   };
 }
 function StatItem({
   end,
   suffix,
-  label
-
-
-
-
-}: {end: number;suffix: string;label: string;}) {
+  label,
+}: {
+  end: number;
+  suffix: string;
+  label: string;
+}) {
   const { count, ref } = useAnimatedCounter(end);
   return (
     <div ref={ref} className="text-center">
@@ -54,8 +54,8 @@ function StatItem({
       <div className="text-sm font-medium text-gray-400 uppercase tracking-wider">
         {label}
       </div>
-    </div>);
-
+    </div>
+  );
 }
 export function AboutSection() {
   const [offset, setOffset] = useState(0);
@@ -68,18 +68,18 @@ export function AboutSection() {
         setOffset(scrollProgress * 30);
       }
     };
-    window.addEventListener('scroll', handleScroll, {
-      passive: true
+    window.addEventListener("scroll", handleScroll, {
+      passive: true,
     });
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
     <>
       <section
         ref={sectionRef}
         id="about"
-        className="py-24 lg:py-32 bg-simmerium-cream overflow-hidden">
-        
+        className="py-24 lg:py-32 bg-simmerium-cream overflow-hidden"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
             {/* Left Content */}
@@ -113,8 +113,8 @@ export function AboutSection() {
               <div className="mt-10">
                 <a
                   href="#about"
-                  className="inline-flex items-center gap-2 text-simmerium-navy font-bold hover:text-simmerium-gold transition-colors duration-300 group">
-                  
+                  className="inline-flex items-center gap-2 text-simmerium-navy font-bold hover:text-simmerium-gold transition-colors duration-300 group"
+                >
                   Learn more about our heritage
                   <span className="block transform group-hover:translate-x-2 transition-transform duration-300">
                     →
@@ -130,15 +130,15 @@ export function AboutSection() {
                   challenges."
                 </p>
                 <div className="flex items-center gap-4">
-                  <img
+                  {/* <img
                     src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop&crop=face"
                     alt="Dr. Ahmad Al-Rashid"
                     className="w-14 h-14 rounded-full object-cover border-2 border-simmerium-gold/30 shadow-lg"
-                    loading="lazy" />
-                  
+                    loading="lazy" /> */}
+
                   <div>
                     <h4 className="font-bold text-simmerium-heading text-sm">
-                      Dr. Ahmad Al-Rashid
+                      Vincent Gomina
                     </h4>
                     <p className="text-xs text-simmerium-gold font-semibold uppercase tracking-wider">
                       Chief Executive Officer
@@ -154,15 +154,16 @@ export function AboutSection() {
               <div
                 className="relative z-10 rounded-2xl overflow-hidden shadow-2xl"
                 style={{
-                  transform: `translateY(${offset * 0.3}px)`
-                }}>
-                
+                  transform: `translateY(${offset * 0.3}px)`,
+                }}
+              >
                 <img
                   src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&h=600&fit=crop"
                   alt="Simmerium R&D laboratory"
                   className="w-full h-[400px] lg:h-[480px] object-cover"
-                  loading="lazy" />
-                
+                  loading="lazy"
+                />
+
                 <div className="absolute inset-0 bg-gradient-to-t from-simmerium-navy/30 to-transparent"></div>
               </div>
 
@@ -170,24 +171,24 @@ export function AboutSection() {
               <div
                 className="absolute -bottom-8 -left-8 z-20 rounded-2xl overflow-hidden shadow-2xl border-4 border-simmerium-cream w-48 h-36 md:w-64 md:h-48"
                 style={{
-                  transform: `translateY(${offset * -0.2}px)`
-                }}>
-                
+                  transform: `translateY(${offset * -0.2}px)`,
+                }}
+              >
                 <img
                   src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=400&h=300&fit=crop"
                   alt="Industrial facility"
                   className="w-full h-full object-cover"
-                  loading="lazy" />
-                
+                  loading="lazy"
+                />
               </div>
 
               {/* Floating Stat Card */}
               <div
                 className="absolute -top-6 -right-4 md:right-4 z-30 bg-white rounded-xl shadow-xl p-5 border border-gray-100"
                 style={{
-                  transform: `translateY(${offset * -0.4}px)`
-                }}>
-                
+                  transform: `translateY(${offset * -0.4}px)`,
+                }}
+              >
                 <div className="text-3xl font-bold text-simmerium-navy">
                   30+
                 </div>
@@ -220,6 +221,6 @@ export function AboutSection() {
           </div>
         </div>
       </section>
-    </>);
-
+    </>
+  );
 }

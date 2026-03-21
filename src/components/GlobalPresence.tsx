@@ -1,4 +1,3 @@
-import React, { lazy } from 'react';
 import { MapPinIcon } from 'lucide-react';
 export function GlobalPresence() {
   return (

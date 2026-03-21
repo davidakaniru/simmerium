@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRightIcon, PhoneIcon } from 'lucide-react';
 export function HeroSection() {
   return (
@@ -134,7 +133,7 @@ export function HeroSection() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-10">
+      {/* <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center z-10">
         <span
           className="text-white/40 text-xs uppercase tracking-[0.3em] mb-3 animate-slide-up"
           style={{
@@ -151,7 +150,7 @@ export function HeroSection() {
           
           <div className="w-1.5 h-3 rounded-full bg-simmerium-gold animate-bounce"></div>
         </div>
-      </div>
+      </div> */}
     </section>);
 
 }

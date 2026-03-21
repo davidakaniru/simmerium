@@ -85,7 +85,7 @@ export function SectorDetailPage({ slug }: {slug: string;}) {
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <span
-            className="inline-flex items-center gap-2 py-2 px-5 rounded-full glass-card text-white/90 text-sm font-semibold tracking-widest mb-8 animate-slide-up"
+            className="hidden md:inline-flex items-center gap-2 py-2 px-5 rounded-full glass-card text-white/90 text-sm font-semibold tracking-widest mb-8 animate-slide-up"
             style={{
               animationDelay: '0.2s'
             }}>
@@ -190,7 +190,7 @@ export function SectorDetailPage({ slug }: {slug: string;}) {
               key={index}
               className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
               
-                <h3 className="text-xl font-bold text-simmerium-heading mb-3 text-simmerium-navy">
+                <h3 className="text-xl font-bold mb-3 text-simmerium-navy">
                   {solution.title}
                 </h3>
                 <p className="text-simmerium-body leading-relaxed">

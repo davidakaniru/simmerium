@@ -1,10 +1,8 @@
-import React, { useState, lazy } from 'react';
+import React, { useState } from 'react';
 import {
   PhoneIcon,
   MailIcon,
   MapPinIcon,
-  LinkedinIcon,
-  TwitterIcon,
   CheckCircleIcon } from
 'lucide-react';
 export function ContactSection() {

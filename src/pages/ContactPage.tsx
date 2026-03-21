@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { ContactSection } from '../components/ContactSection';
 import { GlobalPresence } from '../components/GlobalPresence';
 import { FAQSection } from '../components/FAQSection';
@@ -65,7 +65,7 @@ export function ContactPage() {
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-simmerium-gold/5 rounded-full filter blur-3xl"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <span
-            className="inline-flex items-center gap-2 py-2 px-5 rounded-full glass-card text-simmerium-light-gold text-sm font-semibold tracking-widest mb-8 animate-slide-up"
+            className="hidden md:inline-flex items-center gap-2 py-2 px-5 rounded-full glass-card text-simmerium-light-gold text-sm font-semibold tracking-widest mb-8 animate-slide-up"
             style={{
               animationDelay: '0.2s'
             }}>

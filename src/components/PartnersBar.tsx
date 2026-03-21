@@ -1,11 +1,14 @@
-import React from 'react';
 const partners = [
-'PetroGulf Energy',
-'Arabian Drilling Co.',
-'Nordic Energy Partners',
-'Caspian Resources',
-'Pacific LNG Corp',
-'Atlas Petrochemicals'];
+  "TotalEnergies",
+  "ChevronTexaco",
+  "AGIP — ENI",
+  "Seplat Energy",
+  "NNPC / NPDC",
+  "Addax Petroleum",
+  "Moni-Pulo",
+  "SPDC — Shell",
+  "ExxonMobil"
+];
 
 export function PartnersBar() {
   return (
@@ -20,29 +23,29 @@ export function PartnersBar() {
       <div className="relative marquee-fade-left">
         <div className="flex animate-marquee whitespace-nowrap">
           {/* First set */}
-          {partners.map((partner, index) =>
-          <div
-            key={`a-${index}`}
-            className="flex-shrink-0 mx-12 flex items-center justify-center">
-            
+          {partners.map((partner, index) => (
+            <div
+              key={`a-${index}`}
+              className="flex-shrink-0 mx-12 flex items-center justify-center"
+            >
               <span className="font-bold text-xl text-gray-300 hover:text-simmerium-gold transition-colors duration-500 uppercase tracking-wider cursor-default whitespace-nowrap">
                 {partner}
               </span>
             </div>
-          )}
+          ))}
           {/* Duplicate for seamless loop */}
-          {partners.map((partner, index) =>
-          <div
-            key={`b-${index}`}
-            className="flex-shrink-0 mx-12 flex items-center justify-center">
-            
+          {partners.map((partner, index) => (
+            <div
+              key={`b-${index}`}
+              className="flex-shrink-0 mx-12 flex items-center justify-center"
+            >
               <span className="font-bold text-xl text-gray-300 hover:text-simmerium-gold transition-colors duration-500 uppercase tracking-wider cursor-default whitespace-nowrap">
                 {partner}
               </span>
             </div>
-          )}
+          ))}
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }

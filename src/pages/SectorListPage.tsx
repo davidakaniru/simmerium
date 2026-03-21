@@ -76,7 +76,7 @@ export function SectorListPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <div className="flex justify-center mb-8">
             <span
-              className="inline-flex items-center gap-2 py-2 px-5 rounded-full glass-card text-simmerium-light-gold text-sm font-semibold tracking-widest animate-slide-up"
+              className="hidden md:inline-flex items-center gap-2 py-2 px-5 rounded-full glass-card text-simmerium-light-gold text-sm font-semibold tracking-widest animate-slide-up"
               style={{
                 animationDelay: '0.2s'
               }}>

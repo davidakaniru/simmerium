@@ -1,4 +1,3 @@
-import React, { lazy } from "react";
 import {
   ShieldIcon,
   DropletIcon,

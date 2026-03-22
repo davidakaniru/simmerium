@@ -11,6 +11,7 @@ import { CTABanner } from "../components/CTABanner";
 import { ContactSection } from "../components/ContactSection";
 import { AnimatedSection } from "../components/AnimatedSection";
 import { GlobalReach } from "../components/GlobalReach";
+import { FAQSection } from "../components/FAQSection";
 export function HomePage() {
   return (
     <>
@@ -51,9 +52,9 @@ export function HomePage() {
       {/* <AnimatedSection>
         <CareersSection />
       </AnimatedSection> */}
-      {/* <AnimatedSection>
+      <AnimatedSection>
         <FAQSection />
-      </AnimatedSection> */}
+      </AnimatedSection>
       {/* <AnimatedSection>
         <NewsSection />
       </AnimatedSection> */}

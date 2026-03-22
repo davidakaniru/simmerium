@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ChevronDownIcon } from 'lucide-react';
 const faqs = [
 {
@@ -112,7 +112,6 @@ export function FAQSection() {
           <a
             href="#contact-form"
             className="inline-flex items-center gap-2 bg-simmerium-navy hover:bg-simmerium-charcoal text-white px-8 py-3 rounded-lg font-semibold transition-all duration-500 transform hover:-translate-y-0.5">
-            
             Contact Our Team
           </a>
         </div>

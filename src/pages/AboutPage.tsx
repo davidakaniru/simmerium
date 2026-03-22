@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { TeamSection } from '../components/TeamSection';
 import { GlobalPresence } from '../components/GlobalPresence';
 import { CertificationsSection } from '../components/CertificationsSection';
 import { CTABanner } from '../components/CTABanner';

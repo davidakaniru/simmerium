@@ -1,4 +1,4 @@
-import { GlobeIcon } from 'lucide-react';
+import { GlobeIcon } from "lucide-react";
 
 export function GlobalReach() {
   return (
@@ -21,21 +21,22 @@ export function GlobalReach() {
             </h2>
 
             <p className="text-lg text-simmerium-body mb-8 leading-relaxed">
-              With corporate headquarters in Houston, Texas and operations deeply
-              embedded in Nigeria's Niger Delta — the heart of West Africa's oil
-              production — Simmerium Control Chemicals is uniquely positioned to serve
-              both international and regional markets with equal excellence.
+              With corporate headquarters in Houston, Texas and operations
+              deeply embedded in Nigeria's Niger Delta — the heart of West
+              Africa's oil production — Simmerium Control Chemicals is uniquely
+              positioned to serve both international and regional markets with
+              equal excellence.
             </p>
 
             <p className="text-lg text-simmerium-body mb-12 leading-relaxed">
-              Our expansion roadmap targets key oil-producing markets across West Africa,
-              including Ghana, Ivory Coast, Equatorial Guinea and Cameroon — bringing
-              SCC's proven chemistry solutions to more operators across the region.
+              Our expansion roadmap targets key oil-producing markets across
+              West Africa, including Ghana, Ivory Coast, Equatorial Guinea and
+              Cameroon — bringing SCC's proven chemistry solutions to more
+              operators across the region.
             </p>
 
             {/* Vincent Technologies Alliance Card */}
-            <div className="bg-simmerium-heading rounded-2xl p-8 relative overflow-hidden group hover:shadow-2xl transition-shadow duration-500">
-              {/* Decorative gradient overlay */}
+            {/* <div className="bg-simmerium-heading rounded-2xl p-8 relative overflow-hidden group hover:shadow-2xl transition-shadow duration-500">
               <div className="absolute inset-0 bg-gradient-to-br from-simmerium-gold/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               
               <div className="relative z-10">
@@ -57,7 +58,7 @@ export function GlobalReach() {
                   from the latest in production chemistry innovation.
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           {/* Right: Location Cards */}

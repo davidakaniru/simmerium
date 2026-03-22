@@ -78,7 +78,7 @@ export function ContactSection() {
                   <h4 className="font-bold text-simmerium-heading mb-1">
                     Phone
                   </h4>
-                  <p className="text-simmerium-body">+1614-805-4911</p>
+                  <p className="text-simmerium-body">+1 (281) 256-5334</p>
                 </div>
               </div>
 
@@ -90,7 +90,7 @@ export function ContactSection() {
                   <h4 className="font-bold text-simmerium-heading mb-1">
                     Email
                   </h4>
-                  <p className="text-simmerium-body">vincent.gomina@simmerium.com</p>
+                  <p className="text-simmerium-body">Info@simmerium.com</p>
                 </div>
               </div>
 

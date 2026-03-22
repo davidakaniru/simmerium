@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef } from 'react';
-function useCountUp(end: number, duration: number = 2000) {
+function useCountUp(end: number, duration = 2000) {
   const [count, setCount] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);

@@ -73,8 +73,8 @@ export function SectorListPage() {
           </div>
         </div>
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-          <div className="flex justify-center mb-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="flex mb-8">
             <span
               className="hidden md:inline-flex items-center gap-2 py-2 px-5 rounded-full glass-card text-simmerium-light-gold text-sm font-semibold tracking-widest animate-slide-up"
               style={{
@@ -97,7 +97,7 @@ export function SectorListPage() {
             Industries We <span className="text-gradient-gold">Serve</span>
           </h1>
           <p
-            className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed animate-slide-up"
+            className="text-xl text-gray-300 max-w-3xl leading-relaxed animate-slide-up"
             style={{
               animationDelay: '0.6s'
             }}>

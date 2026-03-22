@@ -139,12 +139,12 @@ export function Footer() {
               </li>
               <li className="flex items-center text-gray-400 text-sm">
                 <PhoneIcon className="w-5 h-5 text-simmerium-gold mr-3 flex-shrink-0" />
-                <a href="tel:+16148054911">+16148054911</a>
+                <a href="tel:+1281256-5334">+1 (281) 256-5334</a>
               </li>
               <li className="flex items-center text-gray-400 text-sm">
                 <MailIcon className="w-5 h-5 text-simmerium-gold mr-3 flex-shrink-0" />
-                <a href="mailto:vincent.gomina@simmerium.com">
-                  vincent.gomina@simmerium.com
+                <a href="mailto:info@simmerium.com">
+                 Info@simmerium.com
                 </a>
               </li>
             </ul>

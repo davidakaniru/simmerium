@@ -53,57 +53,57 @@ export function GlobalPresence() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {/* Middle East & Africa */}
+          {/* Houston, Texas */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-simmerium-gold/50 hover:shadow-lg transition-all duration-500 group">
             <div className="w-12 h-12 bg-simmerium-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-simmerium-gold transition-colors duration-500">
               <MapPinIcon className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-bold text-simmerium-heading mb-2">
-              Middle East & Africa
+              Houston, Texas
             </h3>
-            <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p>
-            <p className="text-sm text-gray-500 mt-1">Dubai, Dammam, Cairo</p>
+            {/* <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p> */}
+            <p className="text-sm text-gray-500 mt-1">Corporate Headquarters</p>
           </div>
 
-          {/* Asia Pacific */}
+          {/* Port Harcourt, Rivers State */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-simmerium-gold/50 hover:shadow-lg transition-all duration-500 group">
             <div className="w-12 h-12 bg-simmerium-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-simmerium-gold transition-colors duration-500">
               <MapPinIcon className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-bold text-simmerium-heading mb-2">
-              Asia Pacific
+              Port Harcourt, Rivers State
             </h3>
-            <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p>
+            {/* <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p> */}
             <p className="text-sm text-gray-500 mt-1">
-              Singapore, Kuala Lumpur, Perth
+              Operations Hub — West Africa
             </p>
           </div>
 
-          {/* Europe */}
+          {/* United Arab Emirates */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-simmerium-gold/50 hover:shadow-lg transition-all duration-500 group">
             <div className="w-12 h-12 bg-simmerium-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-simmerium-gold transition-colors duration-500">
               <MapPinIcon className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-bold text-simmerium-heading mb-2">
-              Europe
+              United Arab Emirates
             </h3>
-            <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p>
+            {/* <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p> */}
             <p className="text-sm text-gray-500 mt-1">
-              Aberdeen, Stavanger, Rotterdam
+              Vincent Technologies — Technical Partner
             </p>
           </div>
 
-          {/* Americas */}
+          {/* West Africa Region */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-simmerium-gold/50 hover:shadow-lg transition-all duration-500 group">
             <div className="w-12 h-12 bg-simmerium-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-simmerium-gold transition-colors duration-500">
               <MapPinIcon className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-bold text-simmerium-heading mb-2">
-              Americas
+              West Africa Region
             </h3>
             <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p>
             <p className="text-sm text-gray-500 mt-1">
-              Houston, Calgary, Rio de Janeiro
+              Ghana · Ivory Coast · Equatorial Guinea
             </p>
           </div>
         </div>

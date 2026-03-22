@@ -58,14 +58,14 @@ export function Footer() {
                   name: "Sustainability",
                   href: "#sustainability",
                 },
-                {
-                  name: "News & Insights",
-                  href: "#home",
-                },
-                {
-                  name: "Careers",
-                  href: "#home",
-                },
+                // {
+                //   name: "News & Insights",
+                //   href: "#home",
+                // },
+                // {
+                //   name: "Careers",
+                //   href: "#home",
+                // },
               ].map((link) => (
                 <li key={link.name}>
                   <a
@@ -143,9 +143,7 @@ export function Footer() {
               </li>
               <li className="flex items-center text-gray-400 text-sm">
                 <MailIcon className="w-5 h-5 text-simmerium-gold mr-3 flex-shrink-0" />
-                <a href="mailto:info@simmerium.com">
-                 Info@simmerium.com
-                </a>
+                <a href="mailto:info@simmerium.com">Info@simmerium.com</a>
               </li>
             </ul>
           </div>

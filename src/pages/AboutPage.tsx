@@ -258,14 +258,10 @@ export function AboutPage() {
                   challenges."
                 </p>
                 <div className="flex items-center gap-4">
-                  <img
-                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=100&h=100&fit=crop&crop=face"
-                    alt="Dr. Ahmad Al-Rashid"
-                    className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm" />
                   
                   <div>
                     <h4 className="font-bold text-simmerium-heading text-sm">
-                      Dr. Ahmad Al-Rashid
+                      Vincent Gomina
                     </h4>
                     <p className="text-xs text-simmerium-gold font-semibold uppercase tracking-wider">
                       Chief Executive Officer
@@ -290,12 +286,12 @@ export function AboutPage() {
               icon: GlobeIcon
             },
             {
-              value: '500+',
+              value: '55+',
               label: 'Products',
               icon: FlaskConicalIcon
             },
             {
-              value: '2,000+',
+              value: '100+',
               label: 'Clients',
               icon: UsersIcon
             },
@@ -407,9 +403,9 @@ export function AboutPage() {
       </section>
 
       {/* Team */}
-      <AnimatedSection>
+      {/* <AnimatedSection>
         <TeamSection />
-      </AnimatedSection>
+      </AnimatedSection> */}
 
       {/* Global Presence */}
       <AnimatedSection>

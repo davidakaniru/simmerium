@@ -346,38 +346,30 @@ export function ProductsListPage() {
 
               {/* Pagination */}
               {totalPages > 1 && (
-                <div className="mt-16 flex items-center justify-center gap-2">
-                  <button
-                    onClick={() => handlePageChange(currentPage - 1)}
-                    disabled={currentPage === 1}
-                    className="px-4 py-2 text-sm font-semibold text-simmerium-body border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-                  >
-                    Previous
-                  </button>
-                  <div className="flex gap-1">
-                    {Array.from({ length: totalPages }, (_, i) => i + 1).map(
-                      (page) => (
-                        <button
-                          key={page}
-                          onClick={() => handlePageChange(page)}
-                          className={`w-10 h-10 rounded-lg text-sm font-semibold transition-all ${
-                            currentPage === page
-                              ? "bg-simmerium-gold text-white shadow-md"
-                              : "text-simmerium-body border border-gray-300 hover:bg-gray-50"
-                          }`}
-                        >
-                          {page}
-                        </button>
-                      ),
-                    )}
+                <div className="mt-16 text-center">
+                  <div className="inline-flex items-center gap-3 bg-white/80 backdrop-blur-sm border border-gray-200 rounded-xl shadow-lg px-6 py-3">
+                    <div className="flex items-center gap-2">
+                      <button
+                        onClick={() => handlePageChange(currentPage - 1)}
+                        disabled={currentPage === 1}
+                        className="w-11 h-11 rounded-xl text-simmerium-body border border-gray-300 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center shadow-sm hover:shadow-md"
+                        aria-label="Previous page"
+                      >
+                        <ArrowRightIcon className="w-5 h-5 -rotate-180" />
+                      </button>
+                      <span className="text-xs text-simmerium-body">
+                        {currentPage} / {totalPages}
+                      </span>
+                      <button
+                        onClick={() => handlePageChange(currentPage + 1)}
+                        disabled={currentPage === totalPages}
+                        className="w-11 h-11 rounded-xl text-simmerium-body border border-gray-300 hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all flex items-center justify-center shadow-sm hover:shadow-md"
+                        aria-label="Next page"
+                      >
+                        <ArrowRightIcon className="w-5 h-5" />
+                      </button>
+                    </div>
                   </div>
-                  <button
-                    onClick={() => handlePageChange(currentPage + 1)}
-                    disabled={currentPage === totalPages}
-                    className="px-4 py-2 text-sm font-semibold text-simmerium-body border border-gray-300 rounded-lg hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-                  >
-                    Next
-                  </button>
                 </div>
               )}
             </>

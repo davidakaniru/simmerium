@@ -36,7 +36,7 @@ const milestones = [
     year: "2016",
     title: "Asia Pacific Entry",
     description:
-      "Established operations in Bangkok and Thailand to serve the APAC region.",
+      "Established operations in Bangkok, Thailand to serve the APAC region.",
   },
   {
     year: "2019",

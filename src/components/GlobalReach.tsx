@@ -82,7 +82,7 @@ export function GlobalReach() {
               </div>
             </div>
 
-            {/* Nigeria Operations Hub */}
+            {/* Nigeria Regional Hub */}
             <div className="bg-simmerium-heading rounded-2xl p-8 group hover:bg-opacity-95 transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">
               <div className="flex items-start gap-6">
                 <div className="flex-shrink-0">
@@ -95,7 +95,7 @@ export function GlobalReach() {
                     Port Harcourt, Rivers State
                   </h3>
                   <p className="text-simmerium-gold font-semibold uppercase tracking-wider text-sm">
-                    Operations Hub — West Africa
+                    Regional Hub — West Africa
                   </p>
                 </div>
               </div>
@@ -111,10 +111,10 @@ export function GlobalReach() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-white mb-2">
-                    United Arab Emirates
+                    Abu Dhabi, United Arab Emirates
                   </h3>
                   <p className="text-simmerium-gold font-semibold uppercase tracking-wider text-sm">
-                    Vincent Technologies — Technical Partner
+                    Regional Hub - Middle East.
                   </p>
                 </div>
               </div>

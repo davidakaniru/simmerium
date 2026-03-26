@@ -1,5 +1,5 @@
-import React, { lazy } from 'react';
-import { QuoteIcon, StarIcon } from 'lucide-react';
+import React, { lazy } from "react";
+import { QuoteIcon, StarIcon } from "lucide-react";
 export function TestimonialsSection() {
   return (
     <section className="relative py-24 lg:py-32 overflow-hidden">
@@ -7,9 +7,9 @@ export function TestimonialsSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=800&fit=crop')`
-        }}>
-      </div>
+          backgroundImage: `url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=800&fit=crop')`,
+        }}
+      ></div>
       <div className="absolute inset-0 bg-simmerium-navy/90"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -48,19 +48,19 @@ export function TestimonialsSection() {
             </p>
             <div className="w-full h-px bg-white/10 mb-6"></div>
             <div className="flex items-center gap-4">
-              <img
+              {/* <img
                 src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
                 alt="Robert Chen"
                 className="w-14 h-14 rounded-full object-cover border-2 border-simmerium-gold/40 shadow-lg"
-                loading="lazy" />
-              
+                loading="lazy" /> */}
+
               <div>
-                <h4 className="font-bold text-white text-sm">Robert Chen</h4>
+                <h4 className="font-bold text-white text-sm">Paul Ayeni</h4>
                 <p className="text-xs text-gray-400 font-medium">
-                  VP of Operations
+                  Project Manager
                 </p>
                 <p className="text-xs text-simmerium-gold font-semibold">
-                  PetroGulf Energy
+                  Shell Petroleum Development Company
                 </p>
               </div>
             </div>
@@ -83,21 +83,21 @@ export function TestimonialsSection() {
             </p>
             <div className="w-full h-px bg-white/10 mb-6"></div>
             <div className="flex items-center gap-4">
-              <img
+              {/* <img
                 src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face"
                 alt="Fatima Al-Zahra"
                 className="w-14 h-14 rounded-full object-cover border-2 border-simmerium-gold/40 shadow-lg"
-                loading="lazy" />
-              
+                loading="lazy" /> */}
+
               <div>
                 <h4 className="font-bold text-white text-sm">
-                  Fatima Al-Zahra
+                  Giancarlo Marostica
                 </h4>
                 <p className="text-xs text-gray-400 font-medium">
-                  Head of Procurement
+                  Sr. Chemical Technical Advisor
                 </p>
                 <p className="text-xs text-simmerium-gold font-semibold">
-                  Arabian Drilling Co.
+                  Halliburton Energy Services
                 </p>
               </div>
             </div>
@@ -120,27 +120,25 @@ export function TestimonialsSection() {
             </p>
             <div className="w-full h-px bg-white/10 mb-6"></div>
             <div className="flex items-center gap-4">
-              <img
+              {/* <img
                 src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&h=200&fit=crop&crop=face"
                 alt="Marcus Thompson"
                 className="w-14 h-14 rounded-full object-cover border-2 border-simmerium-gold/40 shadow-lg"
-                loading="lazy" />
-              
+                loading="lazy" /> */}
+
               <div>
-                <h4 className="font-bold text-white text-sm">
-                  Marcus Thompson
-                </h4>
+                <h4 className="font-bold text-white text-sm">Peter Nansoh</h4>
                 <p className="text-xs text-gray-400 font-medium">
-                  HSE Director
+                  Head of Procurement
                 </p>
                 <p className="text-xs text-simmerium-gold font-semibold">
-                  Nordic Energy Partners
+                  Oando Energy Services
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }

@@ -190,7 +190,7 @@ export function AboutSection() {
                 }}
               >
                 <div className="text-3xl font-bold text-simmerium-navy">
-                  30+
+                  12+
                 </div>
                 <div className="text-xs font-semibold text-simmerium-gold uppercase tracking-wider">
                   Countries

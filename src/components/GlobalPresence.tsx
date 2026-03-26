@@ -71,25 +71,25 @@ export function GlobalPresence() {
               <MapPinIcon className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-bold text-simmerium-heading mb-2">
-              Port Harcourt, Rivers State
+              Port Harcourt, Nigeria
             </h3>
             {/* <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p> */}
             <p className="text-sm text-gray-500 mt-1">
-              Operations Hub — West Africa
+              Regional Hub — West Africa
             </p>
           </div>
 
-          {/* United Arab Emirates */}
+          {/* Abu Dhabi, United Arab Emirates */}
           <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-simmerium-gold/50 hover:shadow-lg transition-all duration-500 group">
             <div className="w-12 h-12 bg-simmerium-navy rounded-xl flex items-center justify-center mb-6 group-hover:bg-simmerium-gold transition-colors duration-500">
               <MapPinIcon className="w-6 h-6 text-white" />
             </div>
             <h3 className="text-xl font-bold text-simmerium-heading mb-2">
-              United Arab Emirates
+              Abu Dhabi, United Arab Emirates
             </h3>
             {/* <p className="text-sm text-simmerium-body font-medium">Key Hubs:</p> */}
             <p className="text-sm text-gray-500 mt-1">
-              Vincent Technologies — Technical Partner
+              Regional Hub - Middle East.
             </p>
           </div>
 

@@ -69,6 +69,18 @@ export function ProductsListPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const productsPerPage = 6;
 
+    useEffect(() => {
+    const hash = window.location.hash;
+    const urlParams = new URLSearchParams(hash.split('?')[1] || '');
+    const categoryParam = urlParams.get('category');
+    
+    if (categoryParam && categoryParam in categoryLabels) {
+      setActiveCategory(categoryParam as CategoryFilter);
+    }
+    
+    window.scrollTo(0, 0);
+  }, []);
+
   useEffect(() => {
     window.scrollTo(0, 0);
     setCurrentPage(1); // Reset to first page when filters change

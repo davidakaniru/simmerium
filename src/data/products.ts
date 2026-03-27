@@ -145,8 +145,8 @@ export const productsData = [
     heroDescription:
       'Comprehensive corrosion management solutions that protect your most critical assets in the harshest operating environments.',
     features: [
-      'Film-forming amine technology',
-      'Oil-soluble and water-soluble formulations',
+      'Film-forming Amine Technology',
+      'Oil-soluble and Water-soluble Formulations',
       'High-temperature stability up to 350°F',
       'Compatible with all metallurgies',
       'Environmentally acceptable options available',
@@ -190,8 +190,8 @@ export const productsData = [
     heroDescription:
       'Advanced scale control technologies to maintain flow assurance and protect critical infrastructure from mineral deposition.',
     features: [
-      'Phosphonate and polymer-based chemistries',
-      'Effective against calcium carbonate, barium sulfate, and exotic scales',
+      'Phosphonate and Polymer-based Chemistries',
+      'Effective against Calcium Carbonate, Barium Sulfate, and exotic scales',
       'High-temperature and high-salinity tolerance',
       'Continuous injection and squeeze application options',
       'Low minimum effective concentration (MEC)',
@@ -235,7 +235,7 @@ export const productsData = [
     heroDescription:
       'Advanced wax management solutions to ensure continuous flow in waxy crude production.',
     features: [
-      'Comb polymer and EVA-based formulations',
+      'Comb Polymer and EVA-based Formulations',
       'Crystal modification and dispersion mechanisms',
       'Effective at low treat rates',
       'Compatible with crude oil systems',
@@ -325,9 +325,9 @@ export const productsData = [
     heroDescription:
       'Comprehensive hydrate management solutions for deepwater and cold climate operations.',
     features: [
-      'Thermodynamic inhibitors (MEG, methanol)',
-      'Low-dosage hydrate inhibitors (LDHI)',
-      'Kinetic and anti-agglomerant technologies',
+      'Thermodynamic Inhibitors (MEG, Methanol)',
+      'Low-dosage Hydrate Inhibitors (LDHI)',
+      'Kinetic and Anti-agglomerant Technologies',
       'Effective at high subcooling',
       'Regeneration and recovery options',
       'Environmentally acceptable formulations'
@@ -415,7 +415,7 @@ export const productsData = [
     heroDescription:
       'Efficient and reliable H2S mitigation solutions to ensure safety, meet specifications, and protect infrastructure.',
     features: [
-      'Triazine and non-triazine based scavengers',
+      'Triazine and Non-triazine Based Scavengers',
       'Fast reaction kinetics',
       'High H2S capacity per gallon',
       'Liquid and gas phase applications',
@@ -460,7 +460,7 @@ export const productsData = [
     heroDescription:
       'Effective oxygen removal solutions to protect assets from oxygen-induced corrosion.',
     features: [
-      'Sulfite and organic-based chemistries',
+      'Sulfite and Organic-based Chemistries',
       'Rapid oxygen consumption',
       'Catalyzed formulations for low temperature',
       'Compatible with production systems',
@@ -505,7 +505,7 @@ export const productsData = [
     heroDescription:
       'Proactive foam prevention solutions to maintain operational efficiency and product quality.',
     features: [
-      'Silicone and organic polymer-based',
+      'Silicone and Organic Polymer-based',
       'Prevents foam nucleation',
       'Effective at low concentrations',
       'Compatible with process fluids',
@@ -550,7 +550,7 @@ export const productsData = [
     heroDescription:
       'Fast-acting foam control solutions for emergency response and continuous treatment.',
     features: [
-      'Silicone and non-silicone chemistries',
+      'Silicone and Non-silicone Chemistries',
       'Instant foam collapse',
       'High shear stability',
       'Broad compatibility',
@@ -595,7 +595,7 @@ export const productsData = [
     heroDescription:
       'Advanced wax crystal modification technology for cold weather crude oil production and transportation.',
     features: [
-      'EVA and methacrylate copolymers',
+      'EVA and Methacrylate Copolymers',
       'Crystal modification mechanism',
       'Significant pour point reduction',
       'Compatible with crude oils',
@@ -685,9 +685,9 @@ export const productsData = [
     shortDescription:
       'High-density weighting agent for drilling fluids, providing hydrostatic pressure control and wellbore stability.',
     heroDescription:
-      'Premium-grade barium sulfate for density control in all drilling fluid systems.',
+      'Premium-grade Barium Sulfate for density control in all drilling fluid systems.',
     features: [
-      'API gravity 4.2 specification compliant',
+      'API Gravity 4.2 Specification Compliant',
       'Low soluble salts content',
       'Consistent particle size distribution',
       'Minimal abrasiveness',
@@ -728,11 +728,11 @@ export const productsData = [
     icon: 'LayersIcon',
     category: 'drilling-chemicals',
     shortDescription:
-      'Premium sodium and calcium bentonite clays for viscosity control, filtration, and wellbore stabilization.',
+      'Premium sodium and calcium Bentonite clays for viscosity control, filtration, and wellbore stabilization.',
     heroDescription:
-      'High-quality bentonite drilling clays for superior mud properties and formation protection.',
+      'High-quality Bentonite drilling clays for superior mud properties and formation protection.',
     features: [
-      'Wyoming and regional sodium bentonite',
+      'Wyoming and regional Sodium Bentonite',
       'High-yield formulations',
       'Superior colloidal properties',
       'Excellent swelling characteristics',
@@ -775,7 +775,7 @@ export const productsData = [
     shortDescription:
       'Acid-soluble weighting and bridging agent for reservoir drilling and completion fluids.',
     heroDescription:
-      'Premium calcium carbonate for formation-friendly drilling and minimal formation damage.',
+      'Premium Calcium Carbonate for formation-friendly drilling and minimal formation damage.',
     features: [
       'Ultra-fine to coarse particle sizes',
       'High purity (>95% CaCO3)',
@@ -820,7 +820,7 @@ export const productsData = [
     shortDescription:
       'Essential alkalinity source for pH control and clay hydration in water-based drilling fluids.',
     heroDescription:
-      'High-purity sodium hydroxide for optimal mud chemistry and performance.',
+      'High-purity Sodium Hydroxide for optimal mud chemistry and performance.',
     features: [
       'Liquid (50%) and solid (flake/pellet) forms',
       'Industrial grade purity',
@@ -912,7 +912,7 @@ export const productsData = [
     heroDescription:
       'Advanced dispersants for optimized drilling fluid rheology and hydraulic efficiency.',
     features: [
-      'Lignosulfonates and lignites',
+      'Lignosulfonates and Lignites',
       'Synthetic polymers (PHPA, SMP)',
       'Temperature-stable formulations',
       'Calcium and contaminant tolerance',
@@ -957,7 +957,7 @@ export const productsData = [
     heroDescription:
       'Effective foam control solutions for reliable drilling fluid performance.',
     features: [
-      'Silicone and organic-based chemistries',
+      'Silicone and Organic-based Chemistries',
       'Compatible with all mud systems',
       'Rapid foam knockdown',
       'Long-lasting performance',
@@ -1002,7 +1002,7 @@ export const productsData = [
     heroDescription:
       'Advanced lubricity enhancers to reduce torque, drag, and differential sticking.',
     features: [
-      'Synthetic and oil-based lubricants',
+      'Synthetic and Oil-based Lubricants',
       'Water-soluble and oil-soluble options',
       'Extreme pressure (EP) additives',
       'Compatible with WBM and OBM',
@@ -1047,8 +1047,8 @@ export const productsData = [
     heroDescription:
       'High-performance glycol systems for challenging shale and reactive formation drilling.',
     features: [
-      'Polyethylene glycol (PEG)',
-      'Polypropylene glycol (PPG)',
+      'Polyethylene Glycol (PEG)',
+      'Polypropylene Glycol (PPG)',
       'Shale encapsulation mechanism',
       'Compatible with high-salinity muds',
       'Temperature-stable formulations',
@@ -1064,7 +1064,7 @@ export const productsData = [
     ],
     benefits: [
       {
-        title: 'Stabilize Shale Formations',
+        title: 'Stabilize Shale Formulations',
         description: 'Prevent hydration, swelling, and dispersion of reactive clays.'
       },
       {
@@ -1090,9 +1090,9 @@ export const productsData = [
     shortDescription:
       'Ultra-high-density iron oxide weighting agent for extreme HTHP and deepwater drilling.',
     heroDescription:
-      'Premium hematite for demanding high-pressure, high-temperature applications.',
+      'Premium Hematite for demanding high-pressure, high-temperature applications.',
     features: [
-      'Specific gravity 5.0-5.2',
+      'Specific Gravity 5.0-5.2',
       'Micronized particle size',
       'Low abrasiveness',
       'Minimal solids loading',
@@ -1135,9 +1135,9 @@ export const productsData = [
     shortDescription:
       'Essential alkalinity and calcium source for lime-based and saturated salt drilling fluids.',
     heroDescription:
-      'High-purity calcium hydroxide for specialized water-based mud systems.',
+      'High-purity Calcium Hydroxide for specialized water-based mud systems.',
     features: [
-      'Slaked lime (Ca(OH)2)',
+      'Slaked Lime (Ca(OH)2)',
       'High purity (>90% available lime)',
       'Fine particle size',
       'Rapid hydration',
@@ -1180,7 +1180,7 @@ export const productsData = [
     shortDescription:
       'Platelet-shaped lost circulation material for seepage and fracture sealing.',
     heroDescription:
-      'High-aspect-ratio mica flakes for effective lost circulation prevention.',
+      'High-aspect-ratio Mica flakes for effective lost circulation prevention.',
     features: [
       'Fine, medium, and coarse grades',
       'High aspect ratio platelets',
@@ -1225,10 +1225,10 @@ export const productsData = [
     shortDescription:
       'Premium cellulose polymer for viscosity building, fluid loss control, and shale stabilization.',
     heroDescription:
-      'High-quality PAC for superior drilling fluid performance and formation protection.',
+      'High-quality Polyanionic Cellulose for superior drilling fluid performance and formation protection.',
     features: [
-      'Low viscosity (LV-PAC)',
-      'High viscosity (HV-PAC/R-PAC)',
+      'Low Viscosity (LV-PAC)',
+      'High Viscosity (HV-PAC/R-PAC)',
       'Temperature stable to 300°F+',
       'Salt and contaminant tolerant',
       'Minimal impact on rheology',
@@ -1270,7 +1270,7 @@ export const productsData = [
     shortDescription:
       'Essential shale inhibitor for drilling reactive formations and maintaining wellbore stability.',
     heroDescription:
-      'High-purity potassium chloride for effective shale inhibition and water activity control.',
+      'High-purity Potassium Chloride for effective shale inhibition and water activity control.',
     features: [
       'Industrial and technical grades',
       'Granular and powder forms',
@@ -1315,7 +1315,7 @@ export const productsData = [
     shortDescription:
       'Versatile treatment for calcium removal, pH control, and mud property optimization.',
     heroDescription:
-      'High-purity sodium carbonate for water treatment and mud conditioning.',
+      'High-purity Sodium Carbonate for water treatment and mud conditioning.',
     features: [
       'Light and dense grades',
       '>99% Na2CO3 purity',
@@ -1360,7 +1360,7 @@ export const productsData = [
     shortDescription:
       'Essential salt for saturated brine systems, shale inhibition, and density control.',
     heroDescription:
-      'Industrial-grade sodium chloride for salt-based drilling fluid systems.',
+      'Industrial-grade Sodium Chloride for salt-based drilling fluid systems.',
     features: [
       'Industrial salt (>99% NaCl)',
       'Granular and powder forms',
@@ -1405,9 +1405,9 @@ export const productsData = [
     shortDescription:
       'Biodegradable fluid loss additive for drilling and completion operations.',
     heroDescription:
-      'Environmentally preferred starch polymers for effective filtration control.',
+      'Environmentally preferred Modified Starch polymers for effective filtration control.',
     features: [
-      'Modified and pregelatinized grades',
+      'Modified and Pregelatinized Grades',
       'Temperature stable formulations',
       'Compatible with WBM systems',
       'Biodegradable and non-toxic',
@@ -1450,9 +1450,9 @@ export const productsData = [
     shortDescription:
       'Biopolymer viscosifier for cuttings suspension, hole cleaning, and low-solids mud systems.',
     heroDescription:
-      'Premium xanthan gum for superior rheology control and cuttings transport.',
+      'Premium Xanthan Gum for superior rheology control and cuttings transport.',
     features: [
-      'High molecular weight biopolymer',
+      'High Molecular Weight Biopolymer',
       'Excellent suspension properties',
       'Shear-thinning behavior',
       'Temperature and salt tolerant',
@@ -1499,9 +1499,9 @@ export const productsData = [
     heroDescription:
       'High-purity acetate salts for diverse industrial and oilfield applications.',
     features: [
-      'Sodium acetate (anhydrous and trihydrate)',
-      'Potassium acetate',
-      'Calcium acetate',
+      'Sodium Acetate (Anhydrous and Trihydrate)',
+      'Potassium Acetate',
+      'Calcium Acetate',
       'Food and technical grades',
       'Buffering and pH control',
       'Low toxicity'
@@ -1544,10 +1544,10 @@ export const productsData = [
     heroDescription:
       'Technical-grade acids for well stimulation, cleaning, and chemical treatment.',
     features: [
-      'Hydrochloric acid (15-32%)',
-      'Sulfuric acid (93-98%)',
-      'Acetic acid (glacial and dilute)',
-      'Citric acid (anhydrous and monohydrate)',
+      'Hydrochloric Acid (15-32%)',
+      'Sulfuric Acid (93-98%)',
+      'Acetic Acid (Glacial and Dilute)',
+      'Citric Acid (Anhydrous and Monohydrate)',
       'Inhibited formulations',
       'Bulk and packaged delivery'
     ],
@@ -1589,8 +1589,8 @@ export const productsData = [
     heroDescription:
       'Industrial-grade alcohols for production chemicals and specialty applications.',
     features: [
-      'Methanol (99.9% purity)',
-      'Ethanol (anhydrous and denatured)',
+      'Methanol (99.9% Purity)',
+      'Ethanol (Anhydrous and Denatured)',
       'Isopropanol (IPA)',
       'Various blends and grades',
       'Bulk storage and delivery',
@@ -1679,9 +1679,9 @@ export const productsData = [
     heroDescription:
       'Ultra-high-density bromide brines for demanding well completion operations.',
     features: [
-      'Calcium bromide (CaBr2)',
-      'Sodium bromide (NaBr)',
-      'Zinc bromide (ZnBr2)',
+      'Calcium Bromide (CaBr2)',
+      'Sodium Bromide (NaBr)',
+      'Zinc Bromide (ZnBr2)',
       'Densities up to 19.2 ppg',
       'Crystal clear solutions',
       'Corrosion inhibitor compatible'
@@ -1724,9 +1724,9 @@ export const productsData = [
     heroDescription:
       'Industrial carbonate salts for diverse chemical treatment operations.',
     features: [
-      'Sodium carbonate (soda ash)',
-      'Potassium carbonate',
-      'Calcium carbonate (ground)',
+      'Sodium Carbonate (Soda Ash)',
+      'Potassium Carbonate',
+      'Calcium Carbonate (Ground)',
       'Light and dense grades',
       'High purity formulations',
       'Bulk and bagged supply'
@@ -1769,10 +1769,10 @@ export const productsData = [
     heroDescription:
       'High-purity chloride salts for completion fluids and specialty applications.',
     features: [
-      'Sodium chloride (NaCl)',
-      'Potassium chloride (KCl)',
-      'Calcium chloride (CaCl2)',
-      'Magnesium chloride (MgCl2)',
+      'Sodium Chloride (NaCl)',
+      'Potassium Chloride (KCl)',
+      'Calcium Chloride (CaCl2)',
+      'Magnesium Chloride (MgCl2)',
       'Technical and food grades',
       'Liquid and solid forms'
     ],
@@ -1814,9 +1814,9 @@ export const productsData = [
     heroDescription:
       'Food-grade and technical citrate salts for environmentally sensitive operations.',
     features: [
-      'Sodium citrate (anhydrous and dihydrate)',
-      'Potassium citrate',
-      'Citric acid derivatives',
+      'Sodium Citrate (Anhydrous and Dihydrate)',
+      'Potassium Citrate',
+      'Citric Acid Derivatives',
       'Food and technical grades',
       'Chelating properties',
       'Biodegradable'
@@ -1859,10 +1859,10 @@ export const productsData = [
     heroDescription:
       'Industrial coagulants for produced water treatment and clarification.',
     features: [
-      'Aluminum sulfate (alum)',
-      'Ferric chloride',
-      'Ferric sulfate',
-      'Polyaluminum chloride (PAC)',
+      'Aluminum Sulfate (Alum)',
+      'Ferric Chloride',
+      'Ferric Sulfate',
+      'Polyaluminum Chloride (PAC)',
       'Liquid and dry formulations',
       'Various concentrations'
     ],
@@ -1904,8 +1904,8 @@ export const productsData = [
     heroDescription:
       'High-purity ethanol for industrial and oilfield applications.',
     features: [
-      'Anhydrous ethanol (99.5%+)',
-      'Denatured ethanol',
+      'Anhydrous Ethanol (99.5%+)',
+      'Denatured Ethanol',
       'Food-grade and industrial grades',
       'Various denaturants available',
       'Bulk and packaged supply',
@@ -1949,9 +1949,9 @@ export const productsData = [
     heroDescription:
       'High molecular weight flocculant polymers for superior water treatment performance.',
     features: [
-      'Anionic polyacrylamides',
-      'Cationic polymers',
-      'Nonionic flocculants',
+      'Anionic Polyacrylamides',
+      'Cationic Polymers',
+      'Nonionic Flocculants',
       'Emulsion and dry powder forms',
       'Variable charge density',
       'High molecular weight'
@@ -1994,9 +1994,9 @@ export const productsData = [
     heroDescription:
       'High-purity glycols for gas processing and production operations.',
     features: [
-      'Monoethylene glycol (MEG)',
-      'Diethylene glycol (DEG)',
-      'Triethylene glycol (TEG)',
+      'Monoethylene Glycol (MEG)',
+      'Diethylene Glycol (DEG)',
+      'Triethylene Glycol (TEG)',
       'Technical and USP grades',
       'Inhibited formulations',
       'Regenerable systems'
@@ -2039,8 +2039,8 @@ export const productsData = [
     heroDescription:
       'Strong oxidizing agents for microbial control and water treatment.',
     features: [
-      'Sodium hypochlorite (bleach)',
-      'Calcium hypochlorite',
+      'Sodium Hypochlorite (Bleach)',
+      'Calcium Hypochlorite',
       '5-15% available chlorine',
       'Liquid and solid forms',
       'On-site generation options',
@@ -2084,8 +2084,8 @@ export const productsData = [
     heroDescription:
       'High-purity nitrate salts for completion operations and specialty treatments.',
     features: [
-      'Calcium nitrate',
-      'Sodium nitrate',
+      'Calcium Nitrate',
+      'Sodium Nitrate',
       'Technical grade purity',
       'Liquid and solid forms',
       'Compatible with bromide brines',
@@ -2129,9 +2129,9 @@ export const productsData = [
     heroDescription:
       'Industrial phosphate chemicals for scale control and specialty applications.',
     features: [
-      'Trisodium phosphate (TSP)',
-      'Sodium tripolyphosphate (STPP)',
-      'Phosphonate esters',
+      'Trisodium Phosphate (TSP)',
+      'Sodium Tripolyphosphate (STPP)',
+      'Phosphonate Esters',
       'Sequestering agents',
       'Technical grade',
       'Liquid and powder forms'
@@ -2174,11 +2174,11 @@ export const productsData = [
     heroDescription:
       'Technical-grade solvents for chemical formulation and well treatment.',
     features: [
-      'Aromatic solvents (toluene, xylene)',
-      'Aliphatic hydrocarbons',
-      'Glycol ethers',
-      'Ester solvents',
-      'Heavy aromatics',
+      'Aromatic Solvents (Toluene, Xylene)',
+      'Aliphatic Hydrocarbons',
+      'Glycol Ethers',
+      'Ester Solvents',
+      'Heavy Aromatics',
       'Blended formulations'
     ],
     applications: [
@@ -2219,10 +2219,10 @@ export const productsData = [
     heroDescription:
       'Industrial sulfate salts for clarification and chemical treatment.',
     features: [
-      'Sodium sulfate (anhydrous)',
-      'Magnesium sulfate (Epsom salt)',
-      'Aluminum sulfate (alum)',
-      'Ferrous sulfate',
+      'Sodium Sulfate (Anhydrous)',
+      'Magnesium Sulfate (Epsom Salt)',
+      'Aluminum Sulfate (Alum)',
+      'Ferrous Sulfate',
       'Technical and USP grades',
       'Bulk and bagged supply'
     ],
@@ -2265,3 +2265,4 @@ export const productCategories = {
 
 // Export slugs for routing
 export const productSlugs = productsData.map((p) => p.slug);
+
